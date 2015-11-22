@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <security-constraint>
+        <display-name>Constraint1</display-name>
+        <web-resource-collection>
+            <web-resource-name>open</web-resource-name>
+            <description>reference vers open</description>
+            <url-pattern>/open/*</url-pattern>
+        </web-resource-collection>
+        <auth-constraint>
+            <description>tom et ad</description>
+            <role-name>tomcat</role-name>
+            <role-name>admin</role-name>
+        </auth-constraint>
+    </security-constraint>
+    <security-constraint>
+        <display-name>Constraint2</display-name>
+        <web-resource-collection>
+            <web-resource-name>onlyAdmin</web-resource-name>
+            <description>only l'admin</description>
+            <url-pattern>/secure/*</url-pattern>
+        </web-resource-collection>
+        <auth-constraint>
+            <description/>
+            <role-name>admin</role-name>
+            <role-name>professeur</role-name>
+        </auth-constraint>
+    </security-constraint>
+    <security-constraint>
+        <display-name>Constraint3</display-name>
+        <web-resource-collection>
+            <web-resource-name>pas securisé</web-resource-name>
+            <description/>
+            <url-pattern>*.gif</url-pattern>
+        </web-resource-collection>
+    </security-constraint>
+    <login-config>
+        <auth-method>BASIC</auth-method>
+        <realm-name>Tomcat</realm-name>
+    </login-config>
+    <security-role>
+        <description>Pour les administrateur</description>
+        <role-name>admin</role-name>
+    </security-role>
+    <security-role>
+        <description>Role tomcat pour tester</description>
+        <role-name>tomcat</role-name>
+    </security-role>
+    <security-role>
+        <description>Profs</description>
+        <role-name>professeur</role-name>
+    </security-role>
+</web-app>

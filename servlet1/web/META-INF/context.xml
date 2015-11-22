@@ -1,2 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Context path="/servlet1"/>
+<Context path="/servlet1">
+  <ResourceLink global="jdbc/omtPivot" name="omtPivot" type="javax.sql.DataSource"/>
+</Context>

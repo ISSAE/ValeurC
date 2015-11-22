@@ -7,12 +7,14 @@ package net.cofares;
 
 import java.io.IOException;
 import java.io.PrintWriter;
+import javax.annotation.Resource;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.annotation.WebInitParam;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.sql.DataSource;
 
 /**
  *
@@ -21,6 +23,9 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet(name = "s1", urlPatterns = {"/s1"}, initParams = {
     @WebInitParam(name = "p1", value = "bonjour")})
 public class s1 extends HttpServlet {
+
+    @Resource(name = "omtPivot")
+    private DataSource omtPivot;
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>

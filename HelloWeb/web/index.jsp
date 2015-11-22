@@ -13,11 +13,13 @@
     <body>
 
         <h1>Entry Form</h1>
-
-        <form action="response.jsp">
+          <jsp:useBean id="mybean" scope="session" class="net.cofares.NameHandler" />
+           <jsp:setProperty name="mybean" property="*"  />
+           <form method="post">
             <table>
                 <tr><td>Enter your name:</td><td> 
-                 <input type="text" name="name" value="Saisir votre nom ici" /></td></tr>
+                        <input type="text" name="name" value="${mybean.name}" /></td></tr>
+               
                 <tr><td colspan="2"><input type="submit" value="OK" /></td></tr>
             </table>
         </form>

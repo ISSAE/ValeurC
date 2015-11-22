@@ -18,10 +18,13 @@
 
         <h1>response.jsp Page</h1>
     
-        <jsp:useBean id="mybean" scope="request" class="net.cofares.NameHandler" />
+        <jsp:useBean id="mybean" scope="application" class="net.cofares.NameHandler" />
         <jsp:setProperty name="mybean" property="*"  />
         Hello, <jsp:getProperty name="mybean" property="name" />
-        Hello, ${mybean.name}
+        <br/>
+        Hello bis, ${mybean.name}
+        <br/>
+        Toto dit ${mybean.toto}
     
     </body>
 </html>
