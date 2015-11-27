@@ -5,7 +5,9 @@
  */
 package net.cofares.entities;
 
+import java.io.PrintWriter;
 import java.io.Serializable;
+import java.io.StringWriter;
 import java.util.List;
 import javax.persistence.Basic;
 import javax.persistence.CascadeType;
@@ -120,7 +122,13 @@ public class User implements Serializable {
 
     @Override
     public String toString() {
-        return "net.cofares.entities.User[ username=" + username + " ]";
+        /**
+         * par StringWriter StringWriter stringWriter = new StringWriter();
+         * PrintWriter printWriter = new PrintWriter(stringWriter);
+         * printWriter.printf("{username: %s, desc: %s}", username, desc);
+         */
+        return "User: { username:" + username
+                + "desc:" + desc + " }";
     }
-    
+
 }
