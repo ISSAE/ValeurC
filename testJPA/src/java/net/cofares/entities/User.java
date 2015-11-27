@@ -48,7 +48,7 @@ public class User implements Serializable {
     @Column(name = "pass")
     private String pass;
     @Size(max = 45)
-    @Column(name = "desc")
+    @Column(name = "description")
     private String desc;
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "ruserName")
     private List<Role> roleList;
