@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+    <ui:composition template="/template.xhtml">
+        <ui:define name="title">
+            <h:outputText value="#{bundle.CreateRoleTitle}"></h:outputText>
+        </ui:define>
+        <ui:define name="body">
+            <h:panelGroup id="messagePanel" layout="block">
+                <h:messages errorStyle="color: red" infoStyle="color: green" layout="table"/>
+            </h:panelGroup>
+            <h:form>
+                <h:panelGrid columns="2">
+                    <h:outputLabel value="#{bundle.CreateRoleLabel_idRole}" for="idRole" />
+                    <h:inputText id="idRole" value="#{roleController.selected.idRole}" title="#{bundle.CreateRoleTitle_idRole}" required="true" requiredMessage="#{bundle.CreateRoleRequiredMessage_idRole}"/>
+                    <h:outputLabel value="#{bundle.CreateRoleLabel_roleName}" for="roleName" />
+                    <h:inputText id="roleName" value="#{roleController.selected.roleName}" title="#{bundle.CreateRoleTitle_roleName}" required="true" requiredMessage="#{bundle.CreateRoleRequiredMessage_roleName}"/>
+                    <h:outputLabel value="#{bundle.CreateRoleLabel_ruserName}" for="ruserName" />
+                    <h:selectOneMenu id="ruserName" value="#{roleController.selected.ruserName}" title="#{bundle.CreateRoleTitle_ruserName}" required="true" requiredMessage="#{bundle.CreateRoleRequiredMessage_ruserName}">
+                        <f:selectItems value="#{userController.itemsAvailableSelectOne}"/>
+                    </h:selectOneMenu>
+                </h:panelGrid>
+                <br />
+                <h:commandLink action="#{roleController.create}" value="#{bundle.CreateRoleSaveLink}" />
+                <br />
+                <br />
+                <h:commandLink action="#{roleController.prepareList}" value="#{bundle.CreateRoleShowAllLink}" immediate="true"/>
+                <br />
+                <br />
+                <h:link outcome="/index" value="#{bundle.CreateRoleIndexLink}"/>
+            </h:form>
+        </ui:define>
+    </ui:composition>
+
+</html>
