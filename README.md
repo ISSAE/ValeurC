@@ -6,3 +6,5 @@ SMB214 année 2015 2016
 * Le blog de la communauté : http://ljug.cofares.net
 
 Présentiel : Mardi / jeudi 17h45 - 21h
+
+lesson courante : Big Data.
