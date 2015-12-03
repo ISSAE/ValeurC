@@ -3,10 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package net.cofares.bean;
+package net.cofares.control;
 
 import java.util.List;
 import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
 
 /**
  *
@@ -20,8 +21,15 @@ public abstract class AbstractFacade<T> {
         this.entityClass = entityClass;
     }
 
-    protected abstract EntityManager getEntityManager();
+    //protected abstract EntityManager getEntityManager();
+    //private EntityManagerFactory emf = null;
 
+    protected abstract EntityManagerFactory getEntityManagerFactory();
+    
+    public EntityManager getEntityManager() {
+        return getEntityManagerFactory().createEntityManager();
+    }
+    
     public void create(T entity) {
         getEntityManager().persist(entity);
     }
