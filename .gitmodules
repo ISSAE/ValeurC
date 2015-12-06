@@ -1,3 +1,6 @@
 [submodule "LesAnalysesDesAuditeurs/Tarek-Adra/TomEE"]
 	path = LesAnalysesDesAuditeurs/Tarek-Adra/TomEE
 	url = https://github.com/Tarek-Adra/TomEE
+[submodule "LesAnalysesDesAuditeurs/MohamadMinzer92/HTML5-offline-browsing-and-storage"]
+	path = LesAnalysesDesAuditeurs/MohamadMinzer92/HTML5-offline-browsing-and-storage
+	url = https://github.com/Houssein001/HTML5-offline-browsing-and-storage
