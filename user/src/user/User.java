@@ -10,7 +10,6 @@ import java.util.List;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 import user.control.UserJpaController;
-import user.control.exceptions.NonexistentEntityException;
 
 /**
  *
