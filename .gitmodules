@@ -4,3 +4,6 @@
 [submodule "LesAnalysesDesAuditeurs/MohamadMinzer92/HTML5-offline-browsing-and-storage"]
 	path = LesAnalysesDesAuditeurs/MohamadMinzer92/HTML5-offline-browsing-and-storage
 	url = https://github.com/Houssein001/HTML5-offline-browsing-and-storage
+[submodule "LesAnalysesDesAuditeurs/hassanItani/SOAP_SMB214-2016"]
+	path = LesAnalysesDesAuditeurs/hassanItani/SOAP_SMB214-2016
+	url = https://github.com/hassanItani/SOAP_SMB214-2016.git
