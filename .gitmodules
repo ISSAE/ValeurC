@@ -7,3 +7,6 @@
 [submodule "LesAnalysesDesAuditeurs/hassanItani/SOAP_SMB214-2016"]
 	path = LesAnalysesDesAuditeurs/hassanItani/SOAP_SMB214-2016
 	url = https://github.com/hassanItani/SOAP_SMB214-2016.git
+[submodule "AutresProjets/mathexp"]
+	path = AutresProjets/mathexp
+	url = git@github.com:pascalfares/mathexp.git
