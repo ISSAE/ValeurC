@@ -10,3 +10,6 @@
 [submodule "AutresProjets/mathexp"]
 	path = AutresProjets/mathexp
 	url = git@github.com:pascalfares/mathexp.git
+[submodule "LesAnalysesDesAuditeurs/ahmadtout/Neo4j"]
+	path = LesAnalysesDesAuditeurs/ahmadtout/Neo4j
+	url = git@github.com:ahmadtout/Neo4j.git
