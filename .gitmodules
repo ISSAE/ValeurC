@@ -16,3 +16,6 @@
 [submodule "LesAnalysesDesAuditeurs/malakKays/SMB214-Malak-KAYS"]
 	path = LesAnalysesDesAuditeurs/malakKays/SMB214-Malak-KAYS
 	url = https://github.com/malakKays/SMB214-Malak-KAYS.git
+[submodule "LesAnalysesDesAuditeurs/balamddine/NewHtml5"]
+	path = LesAnalysesDesAuditeurs/balamddine/NewHtml5
+	url = https://github.com/balamddine/NewHtml5.git
