@@ -13,3 +13,6 @@
 [submodule "LesAnalysesDesAuditeurs/ahmadtout/Neo4j"]
 	path = LesAnalysesDesAuditeurs/ahmadtout/Neo4j
 	url = git@github.com:ahmadtout/Neo4j.git
+[submodule "LesAnalysesDesAuditeurs/malakKays/SMB214-Malak-KAYS"]
+	path = LesAnalysesDesAuditeurs/malakKays/SMB214-Malak-KAYS
+	url = https://github.com/malakKays/SMB214-Malak-KAYS.git
