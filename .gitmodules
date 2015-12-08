@@ -22,3 +22,6 @@
 [submodule "LesAnalysesDesAuditeurs/khalilbsaibes/cassandra"]
 	path = LesAnalysesDesAuditeurs/khalilbsaibes/cassandra
 	url = https://github.com/khalilbsaibes/cassandra
+[submodule "LesAnalysesDesAuditeurs/Java-Card"]
+	path = LesAnalysesDesAuditeurs/Java-Card
+	url = https://github.com/najidagher/Java-Card.git
