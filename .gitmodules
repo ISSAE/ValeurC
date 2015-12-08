@@ -19,3 +19,6 @@
 [submodule "LesAnalysesDesAuditeurs/balamddine/NewHtml5"]
 	path = LesAnalysesDesAuditeurs/balamddine/NewHtml5
 	url = https://github.com/balamddine/NewHtml5.git
+[submodule "LesAnalysesDesAuditeurs/khalilbsaibes/cassandra"]
+	path = LesAnalysesDesAuditeurs/khalilbsaibes/cassandra
+	url = https://github.com/khalilbsaibes/cassandra
