@@ -19,3 +19,18 @@
 [submodule "LesAnalysesDesAuditeurs/iberro/SMB214-Android"]
 	path = LesAnalysesDesAuditeurs/iberro/SMB214-Android
 	url = https://github.com/iberro/SMB214-Android
+[submodule "LesAnalysesDesAuditeurs/ahmadtout/Neo4j"]
+	path = LesAnalysesDesAuditeurs/ahmadtout/Neo4j
+	url = git@github.com:ahmadtout/Neo4j.git
+[submodule "LesAnalysesDesAuditeurs/malakKays/SMB214-Malak-KAYS"]
+	path = LesAnalysesDesAuditeurs/malakKays/SMB214-Malak-KAYS
+	url = https://github.com/malakKays/SMB214-Malak-KAYS.git
+[submodule "LesAnalysesDesAuditeurs/balamddine/NewHtml5"]
+	path = LesAnalysesDesAuditeurs/balamddine/NewHtml5
+	url = https://github.com/balamddine/NewHtml5.git
+[submodule "LesAnalysesDesAuditeurs/khalilbsaibes/cassandra"]
+	path = LesAnalysesDesAuditeurs/khalilbsaibes/cassandra
+	url = https://github.com/khalilbsaibes/cassandra
+[submodule "LesAnalysesDesAuditeurs/Java-Card"]
+	path = LesAnalysesDesAuditeurs/Java-Card
+	url = https://github.com/najidagher/Java-Card.git
