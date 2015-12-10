@@ -13,3 +13,6 @@
 [submodule "LesAnalysesDesAuditeurs/RESTful-Web-Services"]
 	path = LesAnalysesDesAuditeurs/RmailyMike/
 	url = https://github.com/RmailyMike/RESTful-Web-Services
+[submodule "LesAnalysesDesAuditeurs/ebouhanna/SMB214-2016-Oracle-Berkeley-DB-JE"]
+	path = LesAnalysesDesAuditeurs/ebouhanna/SMB214-2016-Oracle-Berkeley-DB-JE
+	url = https://github.com/ebouhanna/SMB214-2016-Oracle-Berkeley-DB-JE.git
