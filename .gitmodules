@@ -16,3 +16,6 @@
 [submodule "LesAnalysesDesAuditeurs/ebouhanna/SMB214-2016-Oracle-Berkeley-DB-JE"]
 	path = LesAnalysesDesAuditeurs/ebouhanna/SMB214-2016-Oracle-Berkeley-DB-JE
 	url = https://github.com/ebouhanna/SMB214-2016-Oracle-Berkeley-DB-JE.git
+[submodule "LesAnalysesDesAuditeurs/iberro/SMB214-Android"]
+	path = LesAnalysesDesAuditeurs/iberro/SMB214-Android
+	url = https://github.com/iberro/SMB214-Android
