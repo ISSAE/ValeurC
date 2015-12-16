@@ -10,8 +10,8 @@
 [submodule "AutresProjets/mathexp"]
 	path = AutresProjets/mathexp
 	url = git@github.com:pascalfares/mathexp.git
-[submodule "LesAnalysesDesAuditeurs/RESTful-Web-Services"]
-	path = LesAnalysesDesAuditeurs/RmailyMike/
+[submodule "LesAnalysesDesAuditeurs/RmailyMike/RESTful-Web-Services"]
+	path = LesAnalysesDesAuditeurs/RmailyMike/RESTful-Web-Services
 	url = https://github.com/RmailyMike/RESTful-Web-Services
 [submodule "LesAnalysesDesAuditeurs/ebouhanna/SMB214-2016-Oracle-Berkeley-DB-JE"]
 	path = LesAnalysesDesAuditeurs/ebouhanna/SMB214-2016-Oracle-Berkeley-DB-JE
@@ -34,3 +34,6 @@
 [submodule "LesAnalysesDesAuditeurs/Java-Card"]
 	path = LesAnalysesDesAuditeurs/Java-Card
 	url = https://github.com/najidagher/Java-Card.git
+[submodule "LesAnalysesDesAuditeurs/Ibrahimwatfa/HTML5-Parallax.git"]
+	path = LesAnalysesDesAuditeurs/Ibrahimwatfa/HTML5-Parallax.git
+	url = git@github.com:Ibrahimwatfa/HTML5-Parallax.git
