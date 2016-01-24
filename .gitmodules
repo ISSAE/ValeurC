@@ -37,3 +37,6 @@
 [submodule "LesAnalysesDesAuditeurs/Ibrahimwatfa/HTML5-Parallax.git"]
 	path = LesAnalysesDesAuditeurs/Ibrahimwatfa/HTML5-Parallax.git
 	url = git@github.com:Ibrahimwatfa/HTML5-Parallax.git
+[submodule "LesAnalysesDesAuditeurs/NajiDagher"]
+	path = LesAnalysesDesAuditeurs/NajiDagher
+	url = git@github.com:najidagher/Java-Card.git
