@@ -37,18 +37,12 @@
 [submodule "LesAnalysesDesAuditeurs/Ibrahimwatfa/HTML5-Parallax.git"]
 	path = LesAnalysesDesAuditeurs/Ibrahimwatfa/HTML5-Parallax.git
 	url = git@github.com:Ibrahimwatfa/HTML5-Parallax.git
-<<<<<<< HEAD
-[submodule "LesAnalysesDesAuditeurs/-O"]
-	path = LesAnalysesDesAuditeurs/-O
-	url = git@github.com:mohamadMonzer92/HTML5-offline-browsing-and-storage.git
 [submodule "LesAnalysesDesAuditeurs/ChadyDagher"]
 	path = LesAnalysesDesAuditeurs/ChadyDagher
 	url = git@github.com:chadydagher/PROJET-RFID.git
 [submodule "LesAnalysesDesAuditeurs/HusseinAlArab"]
 	path = LesAnalysesDesAuditeurs/HusseinAlArab
 	url = git@github.com:hussein-al-Arab/raspberry-pi.git
-=======
 [submodule "LesAnalysesDesAuditeurs/NajiDagher"]
 	path = LesAnalysesDesAuditeurs/NajiDagher
 	url = git@github.com:najidagher/Java-Card.git
->>>>>>> aec21573c32d173869023452bfb12960bd7c48c9
