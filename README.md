@@ -6,10 +6,9 @@
 * Portail : http://reseaux-systemes.cofares.net/
 * Le blog de la communauté : http://ljug.cofares.net
 
-Présentiel : Mardi / jeudi 17h45 - 21h
+###Date de passage des auditeurs
 
-##Jeudi 3/12/2015
+* TOMEE, Tarerk Adra, https://github.com/Tarek-Adra/TomEE
+* Java Card, DAGHER Naji Dagher, https://github.com/najidagher/Java-Card
+* REST, KAYS Malak Ali, https://github.com/malakKays/SMB214-Malak-KAYS
 
-0. JPA CRUD avec glassfish
-1. JPA CRUD hors container.
-2. JPA CRUD avec tomcat
