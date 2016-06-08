@@ -11,3 +11,5 @@
 * [Ali Ahmad Jaafar](https://github.com/AJaafar86/MongoDB)
 * [hassan kassem itani](https://github.com/hassanItani/SOAP_SMB214-2016)
 * [Malak Ali KAYS](https://github.com/malakKays/SMB214-Malak-KAYS)
+* [NAJI DAGHER DAGHER](https://github.com/najidagher/Java-Card)
+* [Khalil Georges Bsaibes](https://github.com/khalilbsaibes/cassandra)
