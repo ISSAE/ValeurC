@@ -6,7 +6,6 @@
 * [Mohammad MAWAKI](https://github.com/mmawaki/Android)
 * [DAGHER Chady](https://github.com/chadydagher/PROJET-RFID)
 * [Ihab Hachem BERRO](https://github.com/iberro/SMB214-Android)
-
 * [Mohamad-Houssein MONZER](https://github.com/mohamadMonzer92/HTML5-offline-browsing-and-storage)
 * [Ali Ahmad Jaafar](https://github.com/AJaafar86/MongoDB)
 * [hassan kassem itani](https://github.com/hassanItani/SOAP_SMB214-2016)
