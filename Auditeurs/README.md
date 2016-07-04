@@ -14,3 +14,7 @@
 * [Elias Pierre Bou Hanna](https://github.com/ebouhanna/SMB214-2016-Oracle-Berkeley-DB-JE)
 * [Elie Sarkis](https://github.com/ElieKassis/Java-Card)
 * [Majed Abou Hamd](https://github.com/majedlb/Neo4j)
+* [Tahani Abdallah Karroum](https://github.com/TahaniKarroum/WILDFLY)
+* [Ahmad Tout](https://github.com/ahmadtout/NFC)
+* [Tarek Ahmad Adra](https://github.com/Tarek-Adra/TomEE)
+* [Alaa Walid DAIRY](https://github.com/adeiry/RFID)
