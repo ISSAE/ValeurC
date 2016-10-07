@@ -1,0 +1,3 @@
+[submodule "AutresProjets/mathexp"]
+	path = AutresProjets/mathexp
+	url = git@github.com:pascalfares/mathexp.git
